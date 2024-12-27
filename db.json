@@ -1,0 +1,159 @@
+{
+  "Users": [
+    {
+      "Login": "Hamza@gmail.com",
+      "pass": "azqs1234",
+      "Nom": "HMIDANI",
+      "Prénom": "Hamza",
+      "id": "f26d"
+    },
+    {
+      "Login": "laila@gmail.com",
+      "pass": "rami2468",
+      "Nom": "RAMI",
+      "Prénom": "Laila",
+      "id": "9d00"
+    },
+    {
+      "id": "33",
+      "Login": "hmidani@gmail.com",
+      "pass": "1234",
+      "Nom": "hmidani",
+      "Prénom": "Hamza"
+    }
+  ],
+  "Client": [
+    {
+      "Email": "Hamza@gmail.com",
+      "Nom": "HMIDANI",
+      "pass": "azqs1234",
+      "id": "b4eb"
+    },
+    {
+      "id": "76e2",
+      "Nom": "khalid",
+      "Email": "laila@gmail.com",
+      "pass": "rami2468"
+    },
+    {
+      "id": "3e8a",
+      "Nom": "khalid",
+      "Email": "laila@gmail.com",
+      "pass": "rami2468"
+    }
+  ],
+  "Articles": [
+    {
+      "nomA": "ELEXIA MHDV43801-92161",
+      "prix": "2 599",
+      "image": "photo/TV1.webp",
+      "cashback": "20",
+      "categorie": "Tv - photo - video",
+      "id": "1"
+    },
+    {
+      "nomA": "machine à laver",
+      "prix": "300",
+      "image": "photo/R.jpg",
+      "cashback": "30",
+      "id": "2",
+      "categorie": "Gros electroménager"
+    },
+    {
+      "nomA": "SAMSUNG QA55Q60DAUXMV",
+      "prix": "7 999",
+      "image": "photo/TV3.jpg",
+      "cashback": "20",
+      "categorie": "Tv - photo - video",
+      "id": "3"
+    },
+    {
+      "nomA": "hwawi S12",
+      "prix": "6500",
+      "image": "photo/2.png",
+      "cashback": "10",
+      "categorie": "Smartphone",
+      "id": "4"
+    },
+    {
+      "nomA": "Souris Gamer",
+      "prix": "400",
+      "image": "photo/souri.jpg",
+      "cashback": "15",
+      "id": "5",
+      "categorie": "Informatique"
+    },
+    {
+      "nomA": "PC assus",
+      "prix": "20000",
+      "image": "photo/asus.webp",
+      "cashback": "60",
+      "id": "6",
+      "categorie": "Informatique"
+    },
+    {
+      "nomA": "Beat EP Headphones",
+      "prix": "1 999",
+      "image": "photo/4.png",
+      "cashback": "15",
+      "categorie": "Audio - hifi",
+      "id": "7"
+    },
+    {
+      "nomA": "Apple Watch",
+      "prix": "3990",
+      "image": "photo/3.png",
+      "cashback": "15",
+      "categorie": "Montre",
+      "id": "8"
+    },
+    {
+      "id": 9,
+      "nomA": "LG 65QNED80T6B",
+      "prix": "11 550",
+      "image": "photo/TV2.jpg",
+      "cashback": "15",
+      "categorie": "Tv - photo - video"
+    },
+    {
+      "id": 10,
+      "nomA": " Apple iPhone 12 Pro",
+      "prix": "7 999",
+      "image": "photo/mobile1.jpg",
+      "cashback": "30",
+      "categorie": "Smartphone"
+    },
+    {
+      "id": 11,
+      "nomA": "Samsung Galaxy S22",
+      "prix": "6 999",
+      "image": "photo/mobile2.jpg",
+      "cashback": "20",
+      "categorie": "Smartphone"
+    },
+    {
+      "id": 12,
+      "nomA": "Beat Studio Wireless",
+      "prix": "1 999",
+      "image": "photo/casque1.png",
+      "cashback": "15",
+      "categorie": "Audio - hifi"
+    },
+    {
+      "id": 13,
+      "nomA": "Black Headphones",
+      "prix": "1 699",
+      "image": "photo/casque2.png",
+      "cashback": "20",
+      "categorie": "Audio - hifi"
+    },
+    {
+      "id": 14,
+      "nomA": "Bluetooth Headphones",
+      "prix": "1 399",
+      "image": "photo/casque3.png",
+      "cashback": "10",
+      "categorie": "Audio - hifi"
+    }
+  ]
+}

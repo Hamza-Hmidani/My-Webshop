@@ -1,0 +1,210 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container1 {
+  position: fixed; /* Fixe la barre en haut de la page */
+  top: 0; /* Place le conteneur en haut */
+  left: 0; /* Aligne à gauche */
+  width: 100%; /* S'étend sur toute la largeur de la page */
+  background-color: #333; /* Ajoute un fond (modifiable selon votre design) */
+  z-index: 1000; /* S'assure qu'il reste au-dessus des autres éléments */
+  padding: 10px 0; /* Ajoute un peu d'espace à l'intérieur */
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.2); /* Optionnel : ajoute une ombre pour le style */
+}
+.container1{
+  display: flex;
+  justify-content: space-between;
+  height: 80px;width: 100%;
+  align-items: center;padding: 15px;
+}
+.div2 a{
+  text-decoration: none;
+  color:aliceblue;
+  margin: 20px;
+  
+}
+a:hover {
+  color: rgb(176, 213, 245);
+}
+.ListeArticle {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  
+}
+
+.card-article {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition pour effet fluide */
+}
+
+.card-article:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+  border-color: #007bff; 
+}
+ 
+.image-container {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease; 
+}
+
+.image-container:hover .product-image {
+  transform: scale(1.1); 
+}
+
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.product-title {
+  font-size: 18px;
+  margin: 15px 0 5px;
+  color: #333;
+}
+
+.product-price {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.show-button {
+  background: #002aff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.show-button:hover {
+  background: #007bff; 
+  transform: scale(1.1); 
+}
+
+.slider-content {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.slider-content.show {
+  opacity: 1;
+}
+
+
+
+.Patiner .div3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #efeded;
+  height: 500px;
+  padding: 20px;
+}
+
+
+.Patiner .div3 h1{
+  color: #635252;
+  font-size: 50px;
+  width: 600px;
+  margin-bottom: 30px;
+}
+.Patiner .div3 p{
+  color: #635252;
+  font-size: 20px;
+  width: 600px;
+  margin-bottom: 30px;
+}
+
+.default-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.default-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background-color: #007bff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.carousel-button:hover {
+  background-color: #0056b3;
+}
+
+.carousel-button--left {
+  left: 10px;
+}
+
+.carousel-button--right {
+  right: 10px;
+ display: flex;
+}
+@media (max-width: 768px) {
+  .slider-content {
+    font-size: 0.8rem;
+  }
+
+  .product-title {
+    font-size: 1rem;
+  }
+  
+}
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+
+

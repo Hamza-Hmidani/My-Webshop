@@ -1,0 +1,77 @@
+/* Conteneur principal */
+.modifier-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Titre */
+  .modifier-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Groupes de formulaire */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Labels */
+  .form-label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+    font-weight: bold;
+  }
+  
+  /* Champs de texte */
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Styles pour les boutons */
+  .btn-modifier, .btn-annuler {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+  }
+  
+  .btn-modifier {
+    background-color: #4CAF50; /* Vert */
+  }
+  
+  .btn-modifier:hover {
+    background-color: #45a049;
+  }
+  
+  .btn-annuler {
+    background-color: #f44336; /* Rouge */
+  }
+  
+  .btn-annuler:hover {
+    background-color: #e53935;
+  }
+  
+  /* Espacement et centrage */
+  br {
+    margin: 10px 0;
+  }
+  
